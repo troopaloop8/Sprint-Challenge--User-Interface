@@ -144,3 +144,35 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Top Nav-Bar */
+
+.row {
+    margin: 20px auto;
+    padding: 0 0 10px;
+	max-width: 1080px;
+}
+
+.main-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	
+
+}
+
+.main-nav li img {
+
+}
+
+.main-nav li a {
+	text-decoration: none;
+    color: rgb(10, 10, 10);
+    font-weight: 600;
+	
+}
+
+.main-nav li a:hover {
+	color: black;
+	border-bottom: 1px solid black;
+}
