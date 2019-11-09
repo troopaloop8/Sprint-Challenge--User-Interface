@@ -230,3 +230,71 @@ footer nav a {
     margin: 30px 0;
     font-size: 1.1rem;
 }
+
+.slider-bar {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    margin: 150px 0 270px;
+
+}
+
+.box-slide {
+    display: flex;
+    content: none;
+    width: 160px;
+    height: 320px;
+    background: white;
+    flex-flow: column nowrap;
+    border: 1px solid black;
+    justify-content: center;
+    
+    
+    
+}
+
+.box-slide:hover {
+    width: 400px;
+    height: 320px;
+
+
+}
+
+.box-slide h2 {
+    visibility: visible!important;
+    text-align: center;
+}
+
+.box-slide * {
+    visibility: hidden;
+    
+    
+    
+}
+
+.box-slide:hover * {
+    visibility: visible;
+    
+}
+
+
+.box-slide img {
+    width: 0;
+    height: 0
+}
+
+.box-slide:hover img {
+    height: auto;
+    max-height: 200px;
+    width: 380px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+.box-slide h2, .box-slide p {
+    margin: 10px;
+}
+

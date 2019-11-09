@@ -34,13 +34,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+
+Semantic HTML is the convention and practice of using tags that carry intended meaning and structure to an HTML document. For example, the use of an <h1> conveys importance, such as brand name. A <p> tag would contain written information, <nav> tags would be for navigation items, et cetera. This allows the structure of the HTML to be far more readable by humans and computers, and such code is better suited for team or open source projects.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+
+display: block is an entire block of content. It can be of any specified width, and can include margin, borders, padding, and content. If the content spans many lines, the content box will expand, but the rest of the box model parameters would remain the same. Unlike how display: block applies the properties to an entire box, display: inline applies only to a line. This line takes up all the remaining space in its parent box unless specified in css. This can be used to create specific stylings.
 
 3. What are the 4 areas of the box model?
 
+
+On the outside, the margin can be considered the space around the box. Next is the border, which can be of any thickness, any color, and can select from various patterns. In between the border and the content is the padding. If content is in a border box, the padding would be the white space between the border and the content box, which is the box that hosts the content (text, image, video, etc)
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The align-items: center property centers the content along the cross-axis. This means that if you have a flex-direction: row, align-items will allow you to move the row up and down the y axis, so it could be at the top, center, or bottom of the box. If you have a flex-direction: column, then align-items: center will move across the x axis. You will be able to align the column so it starts at the left, center, or right side of its content box. 
+
 5. Explain why git is valuable to a team of developers.
+
+Git is a valuable tool and practice because it allows teams to collaborate efficiently. Whether you are working on a dedicated team, a personal project, or a open source project, it helps you to have version control. By having a history of each version and every change and who made the changes, you can iterate and grow the repository in a way that does not threaten the integrity of the project. If any one update breaks things, you can immediately revert the version and then that coder or someone else can inspect what went wrong and can fix it for the next update. Especially with many contributors to a project, version control allows others to work on the code to their own desire, and good contributions from the community can make their way into the main branch.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
