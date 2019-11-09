@@ -238,6 +238,7 @@ footer nav a {
     justify-content: center;
     width: 800px;
     margin: 150px 0 270px;
+    
 
 }
 
@@ -245,11 +246,11 @@ footer nav a {
     display: flex;
     content: none;
     width: 160px;
-    height: 320px;
+    height: 260px;
     background: white;
     flex-flow: column nowrap;
     border: 1px solid black;
-    justify-content: center;
+    justify-content: flex-end;
     
     
     
@@ -257,7 +258,7 @@ footer nav a {
 
 .box-slide:hover {
     width: 400px;
-    height: 320px;
+    height: 360px;
 
 
 }
